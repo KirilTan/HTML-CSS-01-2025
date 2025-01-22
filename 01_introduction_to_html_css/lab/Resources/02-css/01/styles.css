@@ -1,0 +1,31 @@
+h1 {
+    color: darkblue;
+    font-size: 50px;
+}
+
+#main-title {
+    background-color: red;
+}
+
+h2 {
+    color: blue;
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul {
+    background-color: lightblue;
+}
+
+li {
+    font-size: 20px;
+    list-style-type: square;
+    background-color: orchid;
+}
+
+.highlight {
+    background-color: orange;
+}
