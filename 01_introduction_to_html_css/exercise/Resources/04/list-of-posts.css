@@ -1,0 +1,16 @@
+h2 {
+    margin-top: 0;
+}
+
+header > p {
+    color: #6c757d;
+}
+
+cite {
+    font-weight: bold;
+    font-style: normal;
+}
+
+time {
+    font-style: italic;
+}
