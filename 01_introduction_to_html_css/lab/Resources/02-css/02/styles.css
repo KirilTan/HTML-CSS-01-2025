@@ -3,13 +3,21 @@ div p{
 }
 
 ul > li {
-    list-style-type: square;
+    list-style-type: circle;
 }
 
 p + p {
-    background-color: #eee;
+    background-color: lightgrey;
 }
 
 p ~ span {
     font-weight: bold;
+}
+
+p > span {
+    color: red;
+}
+
+p + span {
+    color: darkred;
 }
