@@ -1,0 +1,21 @@
+div {
+    border: 0.2em black;
+    padding: 0.5em 0.5em 0.5em 1em;
+    margin-bottom: 1em;
+}
+
+div.solid {
+    border-style: solid
+}
+
+div.dashed {
+    border-style: dashed;
+}
+
+div.dotted {
+    border-style: dotted;
+}
+
+div.mixed {
+    border-style: dashed solid;
+}
