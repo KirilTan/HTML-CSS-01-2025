@@ -1,0 +1,31 @@
+.container {
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    margin: 4em 2em;
+    padding: 2em;
+}
+
+.layout-item {
+    border: 1px solid #666;
+    border-radius: 0.3em;
+    padding: 2em;
+}
+
+.side-content {
+    display: flex;
+    margin: 1em 0;
+    gap: 1em;
+}
+
+.side-content main {
+    flex-grow: 3;
+}
+
+.side-content aside {
+    flex-grow: 1;
+}
+
+.container.sidebar-left .side-content aside {
+    order: -1;
+}
